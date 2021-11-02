@@ -1,12 +1,12 @@
 h1, h2,
 section{
-	grid-column: 1/5;
+	grid-column: 1/2;
 }
 
 body {
     display: grid;
 	gap: 0.2em;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(1, 1fr);
     font-family: Tahoma, sans-serif;
     font-size:15px;
 	font-weight:300;
@@ -19,22 +19,19 @@ h1{
     color: black;
     text-align: center;
     text-transform: uppercase;
+    background-color: rgb(250, 238, 210);
 }
 
-h2, h3, h4, h5{
+h2{
     color: black;
     text-align: center;
-}
-
-section video,
-section img{
-    max-width: 100%;
-    height: auto;
+    background-color: rgb(250, 238, 210);
 }
 
 p{
     color: black;
     text-align: center;
+    background-color: rgb(250, 238, 210);
 }
 
 section video,
@@ -42,4 +39,6 @@ section img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
